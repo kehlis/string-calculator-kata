@@ -1,0 +1,21 @@
+.container {
+    margin: auto;
+    width: 500px;
+}
+
+textarea, button {
+    padding: 10px;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+}
+
+.sum, .error {
+    margin-top: 15px;
+
+    &.error {
+        color: red;
+    }
+}
